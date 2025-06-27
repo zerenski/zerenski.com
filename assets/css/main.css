@@ -4227,3 +4227,46 @@ border-color: #222 !important;
 section, .wrapper, .inner, header, footer, main, nav {
 background-image: none !important;
 }
+
+/* === Nuclear Blackout — force every possible background to black === */
+
+* {
+background-color: #000 !important;
+background-image: none !important;
+box-shadow: none !important;
+border-color: #222 !important;
+}
+
+body, html {
+background-color: #000 !important;
+color: #fff !important;
+}
+
+a, a:visited {
+color: #ccc !important;
+}
+
+a:hover {
+color: #fff !important;
+}
+
+.button {
+background-color: #121212 !important;
+color: #ccc !important;
+border: 1px solid #ccc !important;
+}
+
+.button:hover {
+background-color: #ccc !important;
+color: #000 !important;
+}
+
+.icon {
+color: #ccc !important;
+}
+
+input, textarea, select {
+background-color: #121212 !important;
+color: #fff !important;
+border: 1px solid #333 !important;
+}
