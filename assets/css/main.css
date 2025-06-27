@@ -4282,3 +4282,20 @@ box-shadow: none !important;
 opacity: 0 !important;
 display: none !important;
 }
+
+/* === Destroy all slanted overlays and colored backgrounds from spotlight sections === */
+
+.spotlight:before,
+.spotlight:after,
+.wrapper.spotlight:before,
+.wrapper.spotlight:after,
+section.wrapper.spotlight.style1:before,
+section.wrapper.spotlight.style2:before,
+section.wrapper.spotlight.style3:before {
+background: none !important;
+background-image: none !important;
+box-shadow: none !important;
+opacity: 0 !important;
+display: none !important;
+transform: none !important;
+}
