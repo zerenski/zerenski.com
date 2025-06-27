@@ -4154,3 +4154,43 @@ input, select, textarea {
 		}
 
 	}
+
+/* === Custom Dark Mode Override (White/Silver Accents) === */
+
+body, .wrapper, section, .inner {
+background-color: #000 !important;
+color: #fff !important;
+}
+
+a {
+color: #ccc !important; /* Light silver */
+}
+
+a:hover {
+color: #fff !important;
+}
+
+.button {
+background-color: #121212 !important;
+color: #ccc !important;
+border: 1px solid #ccc !important;
+}
+
+.button:hover {
+background-color: #ccc !important;
+color: #000 !important;
+}
+
+.icon {
+color: #ccc !important;
+}
+
+footer, footer a, footer li {
+color: #777 !important;
+}
+
+input, textarea {
+background-color: #121212 !important;
+color: #fff !important;
+border: 1px solid #333 !important;
+}
