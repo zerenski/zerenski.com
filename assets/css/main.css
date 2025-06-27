@@ -4194,3 +4194,36 @@ background-color: #121212 !important;
 color: #fff !important;
 border: 1px solid #333 !important;
 }
+
+/* === Full Black Background Override for All Major Containers === */
+
+body, html, .wrapper, section, .inner, header, footer, main, nav {
+background-color: #000 !important;
+}
+
+section.spotlight.style1,
+section.spotlight.style2,
+section.spotlight.style3,
+section.wrapper.spotlight {
+background-color: #000 !important;
+box-shadow: none !important;
+}
+
+header, footer {
+background-color: #000 !important;
+box-shadow: none !important;
+}
+
+hr {
+border-color: #222 !important;
+}
+
+.panel {
+background-color: #000 !important;
+border-color: #222 !important;
+}
+
+/* Remove any background images that might cause color peeking */
+section, .wrapper, .inner, header, footer, main, nav {
+background-image: none !important;
+}
