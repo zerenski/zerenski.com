@@ -4270,3 +4270,15 @@ background-color: #121212 !important;
 color: #fff !important;
 border: 1px solid #333 !important;
 }
+
+/* === Kill the angled banner/spotlight overlay effect === */
+
+.spotlight:before,
+#banner:before,
+#banner:after {
+background: none !important;
+background-image: none !important;
+box-shadow: none !important;
+opacity: 0 !important;
+display: none !important;
+}
