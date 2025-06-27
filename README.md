@@ -1,1 +1,1 @@
-# zerenski.github.io
+# zerenski.com
